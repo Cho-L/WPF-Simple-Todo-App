@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="9360660cb58631c0e.png" />
+    <None Remove="image.png" />
+    <None Remove="모찌.png" />
+    <None Remove="스크린샷%2852%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="9360660cb58631c0e.png" />
+    <Resource Include="image.png" />
+    <Resource Include="모찌.png" />
+    <Resource Include="스크린샷(52).png" />
+  </ItemGroup>
+
+</Project>
